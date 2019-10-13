@@ -1,0 +1,32 @@
+[
+      {
+		"id": 1,
+		"name": "test1",
+		"chemistry": 56,
+		"physics": 90,
+        "maths":60,
+		"economics":80,
+		"social":90
+	  },
+    {
+    	"id": 2,
+		"name": "test2",
+		"chemistry": 67,
+		"physics": 70,
+        "maths":90
+	  },
+    {
+    	"id": 3,
+		"name": "test3",
+		"chemistry": 59,
+		"physics": 40,
+        "maths":50
+	  },
+    {
+    	"id": 4,
+		"name": "test4",
+		"chemistry": 36,
+		"physics": 60,
+        "maths":75
+	}
+]

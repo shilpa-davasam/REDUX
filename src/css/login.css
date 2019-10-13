@@ -1,0 +1,27 @@
+.Login{
+    border: 1px black solid;
+    padding: 1em;
+    margin: 22vh;
+	background-color: #eee;
+}
+.form-group{
+	display: table-caption;
+	margin-bottom: 0.7em;
+	width: 18em;
+}
+.login-label{
+	font-weight: 500;
+	display: inline-block;
+    max-width: 100%;
+    margin-bottom: 0.5em;
+}
+.login-button{
+    margin-top: 3em;
+	color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+	float: right;
+}
+.error{
+	color: red;
+}

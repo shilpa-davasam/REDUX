@@ -1,0 +1,130 @@
+.filters{
+	width: 97vw;
+	background-color: #f5f6f7;
+}
+.search{
+	
+}
+.panel-group{
+	margin-bottom: 20px;
+}
+.panel{
+	margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.panel-group .panel {
+    margin-bottom: 0;
+    border-radius: 4px;
+}
+.panel-heading{
+	color: #fff;
+    background-color: #337ab7;
+    border-color: #337ab7;
+	border-bottom: 0;
+	padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+.panel-body{
+	padding: 15px;
+}
+.search-input{
+	width:60%;
+	display:inline-block;
+	margin-right: 1em;
+	box-shadow: none;
+}
+.search-icon{
+	width: 1em;
+    height: 1em;
+	vertical-align: middle;
+	margin-right: 0.7em;
+}
+.refresh-icon{
+	width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+	margin-left: 0.7em;
+	cursor: pointer;
+}
+.dropdown-menu{
+	position: absolute;
+    transform: translate3d(0, 3rem, 0);
+    top: 3em;
+    left: 5%;
+    will-change: transform;
+	display: block;
+    float: left;
+    width: 55%;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+	max-height: 30vh;
+    overflow: auto;
+}
+.dropdown-item{
+	display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+.dropdown-item:hover{
+	font-weight: bold;
+	color: #00b4cc;
+	cursor: pointer;
+	transition: 0.3s all;
+}
+.option-active{
+	background: whitesmoke;
+	font-size: 1.5rem;
+	color: #00b4cc;
+}
+.operator-select{
+	border: 0.1em black solid;
+    margin: 0 1em;
+}
+.value-input{
+	width: 9%;
+    display: inline-block;
+	height: 2em;
+	padding: 0.3em 0.3em;
+}
+.warning-message{
+	color: red;
+    margin-left: 1em;
+}
+.display-query{
+	display: block;
+}
+.submit{
+	margin: 1% 45% 3%;
+}
+.pointer{
+	cursor: pointer;
+}
+.no-drop{
+	cursor: no-drop;
+}
+.delete-selection{
+	font-weight: 600;
+    margin: 0.5em;
+    cursor: pointer;
+}
